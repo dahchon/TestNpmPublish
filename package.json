@@ -1,8 +1,13 @@
 {
-  "name": "testnpmpublish",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@sample129/t",
+  "version": "0.0.1",
   "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "@sample129:registry": "https://gitlab.com/api/v4/projects/28866336/packages/npm/"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +21,6 @@
   "bugs": {
     "url": "https://github.com/dahchon/TestNpmPublish/issues"
   },
-  "homepage": "https://github.com/dahchon/TestNpmPublish#readme"
+  "homepage": "https://github.com/dahchon/TestNpmPublish#readme",
+  "description": ""
 }
